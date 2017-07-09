@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Writers.Camera.Eos.Core", "Net.Chdk.Meta.Writers.Camera.Eos.Core.csproj", "{25306303-C20C-46BB-A545-59835D4C6698}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Net.Chdk.Shared", "..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.shproj", "{83C6A77C-3286-4F5F-B628-3B971097AD05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Net.Chdk.Meta.Writers.Camera.Core", "..\..\..\Net.Chdk.Meta.Writers.Camera.Core\src\Net.Chdk.Meta.Writers.Camera.Core\Net.Chdk.Meta.Writers.Camera.Core.csproj", "{61FB7A75-B6F3-49C2-A004-7A41AE7541C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Model.Camera", "..\..\..\Net.Chdk.Meta.Model.Camera\src\Net.Chdk.Meta.Model.Camera\Net.Chdk.Meta.Model.Camera.csproj", "{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net.Chdk.Meta.Model.Camera.Eos", "..\..\..\Net.Chdk.Meta.Model.Camera.Eos\src\Net.Chdk.Meta.Model.Camera.Eos\Net.Chdk.Meta.Model.Camera.Eos.csproj", "{70094F34-9337-4337-AB6E-0E7F51B53592}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{10ba5cea-2252-47d3-aaed-01c93cc8ba4a}*SharedItemsImports = 4
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{70094f34-9337-4337-ab6e-0e7f51b53592}*SharedItemsImports = 4
+		..\..\..\Net.Chdk.Core\src\Net.Chdk.Shared\Net.Chdk.Shared.projitems*{83c6a77c-3286-4f5f-b628-3b971097ad05}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25306303-C20C-46BB-A545-59835D4C6698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25306303-C20C-46BB-A545-59835D4C6698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25306303-C20C-46BB-A545-59835D4C6698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25306303-C20C-46BB-A545-59835D4C6698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61FB7A75-B6F3-49C2-A004-7A41AE7541C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FB7A75-B6F3-49C2-A004-7A41AE7541C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FB7A75-B6F3-49C2-A004-7A41AE7541C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FB7A75-B6F3-49C2-A004-7A41AE7541C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BA5CEA-2252-47D3-AAED-01C93CC8BA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70094F34-9337-4337-AB6E-0E7F51B53592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70094F34-9337-4337-AB6E-0E7F51B53592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70094F34-9337-4337-AB6E-0E7F51B53592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70094F34-9337-4337-AB6E-0E7F51B53592}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
