@@ -18,7 +18,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Net.Chdk.Meta.Model.Camera.Eos\src\Net.Chdk.Meta.Model.Camera.Eos\Net.Chdk.Meta.Model.Camera.Eos.csproj" />
+    <PackageReference Include="Net.Chdk.Meta.Model.Camera.Eos" Version="0.1.0-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\..\Net.Chdk.Meta.Writers.Camera.Core\src\Net.Chdk.Meta.Writers.Camera.Core\Net.Chdk.Meta.Writers.Camera.Core.csproj" />
   </ItemGroup>
 
